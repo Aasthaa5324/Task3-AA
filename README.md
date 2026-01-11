@@ -1,6 +1,6 @@
-Clone the repository or unzip the project files:
-git clone https://github.com/Aasthaa5324/Task1 -AA.git
-cd your-repo
-npm install
-npx playwright install
-npx playwright test
+1. Clone the repository or unzip the project files:
+2. git clone https://github.com/Aasthaa5324/Task1 -AA.git
+3. cd your-repo
+4. npm install
+5. npx playwright install
+6. npx playwright test
