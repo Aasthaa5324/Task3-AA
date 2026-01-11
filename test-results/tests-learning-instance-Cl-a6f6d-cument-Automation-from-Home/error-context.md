@@ -1,0 +1,210 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - banner
+    - generic [ref=e5]:
+      - navigation [ref=e7]:
+        - img "Community Edition"
+        - img "Community Edition"
+        - img "Community Edition"
+        - navigation [ref=e8]:
+          - list [ref=e9]:
+            - listitem [ref=e10]:
+              - link "Explore" [ref=e11] [cursor=pointer]:
+                - /url: "#/home"
+                - generic "Explore" [ref=e14]: 
+                - generic [ref=e15]: Explore
+            - listitem [ref=e16]:
+              - link "Home" [ref=e17] [cursor=pointer]:
+                - /url: "#/dashboard"
+                - generic "Home" [ref=e20]: 
+                - generic [ref=e21]: Home
+            - listitem [ref=e22]:
+              - link "Automation" [ref=e23] [cursor=pointer]:
+                - /url: "#/bots/repository"
+                - generic "Automation" [ref=e26]: 
+                - generic [ref=e27]: Automation
+            - listitem [ref=e28]:
+              - button "AI" [expanded] [ref=e29] [cursor=pointer]:
+                - generic [ref=e32]: 
+                - generic [ref=e34]: 
+                - generic [ref=e35]: AI
+              - list [ref=e36]:
+                - listitem [ref=e37]:
+                  - link "Document Automation" [ref=e38] [cursor=pointer]:
+                    - /url: "#/modules/cognitive/iqbot/pages/learning-instances"
+                    - generic [ref=e40]: Document Automation
+            - listitem [ref=e41]:
+              - button "Activity" [ref=e42] [cursor=pointer]:
+                - generic [ref=e45]: 
+                - generic "Activity" [ref=e47]: 
+                - generic [ref=e48]: Activity
+              - list:
+                - listitem [ref=e49]:
+                  - link "In progress" [ref=e50] [cursor=pointer]:
+                    - /url: "#/activity/inprogress"
+                    - generic [ref=e52]: In progress
+                - listitem [ref=e53]:
+                  - link "Historical" [ref=e54] [cursor=pointer]:
+                    - /url: "#/activity/historical"
+                    - generic [ref=e56]: Historical
+                - listitem [ref=e57]
+                - listitem [ref=e58]:
+                  - link "Insights" [ref=e59] [cursor=pointer]:
+                    - /url: /botinsight/
+                    - generic [ref=e61]: Insights
+                    - generic "Open in new window" [ref=e62]: 
+            - listitem [ref=e63]:
+              - button "Manage" [ref=e64] [cursor=pointer]:
+                - generic [ref=e67]: 
+                - generic "Manage" [ref=e69]: 
+                - generic [ref=e70]: Manage
+              - list:
+                - listitem [ref=e71]:
+                  - link "Devices" [ref=e72] [cursor=pointer]:
+                    - /url: "#/devices/mydevices"
+                    - generic [ref=e74]: Devices
+                - listitem [ref=e75]
+                - listitem [ref=e76]:
+                  - link "Global values" [ref=e77] [cursor=pointer]:
+                    - /url: "#/bots/globalvalues"
+                    - generic [ref=e79]: Global values
+                - listitem [ref=e80]:
+                  - link "Credentials" [ref=e81] [cursor=pointer]:
+                    - /url: "#/bots/credentials"
+                    - generic [ref=e83]: Credentials
+                - listitem [ref=e84]:
+                  - link "Packages" [ref=e85] [cursor=pointer]:
+                    - /url: "#/bots/packages"
+                    - generic [ref=e87]: Packages
+            - listitem [ref=e88]:
+              - button "Administration" [ref=e89] [cursor=pointer]:
+                - generic [ref=e92]: 
+                - generic "Administration" [ref=e94]: 
+                - generic [ref=e95]: Administration
+              - list:
+                - listitem [ref=e96]:
+                  - link "Users" [ref=e97] [cursor=pointer]:
+                    - /url: "#/admin/users"
+                    - generic [ref=e99]: Users
+        - navigation [ref=e100]:
+          - button "AC asthaaaadwi@gmail.com" [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: AC
+            - generic [ref=e108]: asthaaaadwi@gmail.com
+          - generic [ref=e109]:
+            - button "Collapse" [expanded] [ref=e110] [cursor=pointer]
+            - button "" [ref=e112] [cursor=pointer]:
+              - generic [ref=e113]:
+                - generic "Help center": 
+            - button "Device Settings" [ref=e115] [cursor=pointer]:
+              - generic [ref=e116]:
+                - img "Device Settings":
+                  - generic: 
+                  - generic:
+                    - generic:
+                      - img
+      - generic [ref=e117]:
+        - banner [ref=e118]:
+          - generic [ref=e119]:
+            - generic [ref=e121]: 
+            - generic [ref=e122]:
+              - link "Upgrade to Enterprise" [ref=e123] [cursor=pointer]:
+                - /url: https://info.automationanywhere.com/community-edition-upgrade.html
+              - generic "Open in new window" [ref=e124]: 
+              - text: Advanced automation capabilities to unleash your organization’s full potential.
+            - generic [ref=e126] [cursor=pointer]: 
+        - iframe [ref=e130]:
+          - main [ref=f1e4]:
+            - heading "Learning Instances Create Learning Instance" [level=1] [ref=f1e6]:
+              - generic [ref=f1e7]:
+                - generic "Learning Instances" [ref=f1e8]:
+                  - generic [ref=f1e9]: Learning Instances
+                - generic [ref=f1e11]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - button:
+                            - generic: 
+              - button "Create Learning Instance" [ref=f1e14] [cursor=pointer]:
+                - generic "Create Learning Instance" [ref=f1e15]:
+                  - generic [ref=f1e16]: Create Learning Instance
+            - generic [ref=f1e17]:
+              - generic [ref=f1e18]:
+                - paragraph [ref=f1e19]: Select 'Create Learning Instance' to extract data from invoices
+                - paragraph [ref=f1e20]:
+                  - strong [ref=f1e21]: Community edition users are limited to 5 learning instances.
+                - paragraph [ref=f1e22]:
+                  - strong [ref=f1e23]: Community edition users must have a device configured.
+              - generic [ref=f1e24]:
+                - generic [ref=f1e26]:
+                  - generic [ref=f1e27]:
+                    - textbox [ref=f1e28]
+                    - generic [ref=f1e30] [cursor=pointer]:
+                      - textbox [ref=f1e33]
+                      - generic "Name" [ref=f1e39]:
+                        - generic [ref=f1e40]: Name
+                      - button "" [ref=f1e42]:
+                        - generic [ref=f1e43]: 
+                  - textbox "Search" [ref=f1e47]
+                - generic [ref=f1e48]:
+                  - region "Learning instances" [ref=f1e49]:
+                    - generic "Learning instances (1)" [ref=f1e50]:
+                      - generic [ref=f1e52]: Learning instances
+                      - generic [ref=f1e54]: (1)
+                      - button "Refresh" [ref=f1e55] [cursor=pointer]:
+                        - generic [ref=f1e56]: 
+                      - button "Customize columns" [ref=f1e57] [cursor=pointer]:
+                        - generic [ref=f1e58]: 
+                  - generic [ref=f1e60]:
+                    - generic [ref=f1e62]:
+                      - generic "Name" [ref=f1e65] [cursor=pointer]:
+                        - generic [ref=f1e66]: Name
+                      - generic "Test mode" [ref=f1e71] [cursor=pointer]:
+                        - generic [ref=f1e72]: Test mode
+                      - generic "Provider" [ref=f1e77] [cursor=pointer]:
+                        - generic [ref=f1e78]: Provider
+                      - generic "Document type" [ref=f1e83] [cursor=pointer]:
+                        - generic [ref=f1e84]: Document type
+                      - generic "Uploads" [ref=f1e89] [cursor=pointer]:
+                        - generic [ref=f1e90]: Uploads
+                      - generic "Last ran" [ref=f1e95] [cursor=pointer]:
+                        - generic [ref=f1e96]: Last ran
+                      - generic "Status" [ref=f1e101] [cursor=pointer]:
+                        - generic [ref=f1e102]: Status
+                      - generic "Actions" [ref=f1e107] [cursor=pointer]:
+                        - generic [ref=f1e108]: Actions
+                    - generic [ref=f1e114]:
+                      - button "abc" [ref=f1e117] [cursor=pointer]
+                      - generic [ref=f1e121]: Disabled
+                      - generic [ref=f1e123]:
+                        - button [ref=f1e124]:
+                          - img [ref=f1e126]
+                        - generic [ref=f1e128]: Automation Anywhere (Pre-trained)
+                      - generic "Invoices" [ref=f1e131]:
+                        - generic [ref=f1e132]: Invoices
+                      - generic [ref=f1e136]: "0"
+                      - generic "Private" [ref=f1e140]:
+                        - generic [ref=f1e141]: Private
+                      - generic [ref=f1e144]:
+                        - button "Process" [ref=f1e145] [cursor=pointer]
+                        - button "View status" [ref=f1e146] [cursor=pointer]
+                        - button "Validate documents (0)" [ref=f1e147] [cursor=pointer]
+                      - button "Toolbar" [ref=f1e149] [cursor=pointer]:
+                        - generic [ref=f1e150]: 
+                - navigation [ref=f1e151]:
+                  - list
+                  - generic [ref=f1e152]:
+                    - generic "select" [ref=f1e154]:
+                      - textbox [ref=f1e155]
+                      - generic [ref=f1e157] [cursor=pointer]:
+                        - textbox [ref=f1e160]
+                        - generic [ref=f1e167]: "100"
+                        - button "" [ref=f1e169]:
+                          - generic [ref=f1e170]: 
+                    - generic [ref=f1e171]: per page
+  - button "Open Resource Center, 9 new notification" [ref=e131] [cursor=pointer]:
+    - generic [ref=e133]: "9"
+```
